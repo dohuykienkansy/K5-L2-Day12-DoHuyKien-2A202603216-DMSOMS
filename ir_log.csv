@@ -1,0 +1,6 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,Dây an toàn chìm hoàn toàn vào màu áo tối do ảnh đơn sắc,seatbelt,"Giữ unknown; đối chiếu ảnh RGB cùng cảnh cũng không thấy rõ dây"
+S03_ir,IR_sim,Túi xách màu sẫm trên ghế nỉ xám bị mất tương phản màu sắc,object.type,"Chỉ nhận dạng được nhờ biên dạng khối hộp, gán type=bag"
+D01,real_IR,Đèn LED hồng ngoại chiếu thẳng vào kính tạo đốm lóa sáng che khuất tròng mắt,right_eye_state,"Bắt buộc gán unknown, cấm đoán closed; bật cờ occluded ở 4 điểm mắt phải"
+D03,real_IR,Tròng kính râm bị tia NIR xuyên thấu trông như kính trắng trong suốt,glasses,"Gán clear hoặc unknown nếu nghi ngờ; không tùy tiện gán sun theo cảm tính ảnh màu"
+D06,real_IR,Đèn NIR phản xạ trên tròng kính mắt phải tạo đốm sáng lóa,right_eye_state,"Gán eye_right=unknown và bật cờ occluded=1 ở 4 điểm mắt phải"
